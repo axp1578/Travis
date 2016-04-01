@@ -5,7 +5,7 @@ node_js:
 before_script:
  # - npm link
  # - mkdir -p shippable/codecoverage
-   sudo: required
+   
 after_success:
   - echo $TOTO
   - git remote -v
